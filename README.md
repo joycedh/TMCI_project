@@ -12,7 +12,7 @@ Motivation: to decide whether a statement is fake news or not.
 - What approach leads to the highest accuracy in prediction? 
 
 ## Dataset: The Liar Dataset
-- [The Liar Dataset](https://github.com/thiagorainmaker77/liar_dataset)
+[The Liar Dataset](https://github.com/thiagorainmaker77/liar_dataset)
 - The Liar Dataset is a dataset of short statements from politifact.com. The statements are manually labeled into ‘pants on fire’, ’false’, ‘barely true’, ‘half true’, ‘mostly true’. The dataset also contains information on the subject of the statement, who produced it, their job, party and the context. 
 - The dataset is divided into a training (+- 1200 statements) and a test-set (way larger)
 - Feature engineering:
