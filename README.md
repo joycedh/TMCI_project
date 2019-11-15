@@ -9,13 +9,16 @@ Motivation: to decide whether a statement is fake news or not.
 ## Research questions
 
 What features are associated with fake news?
-More specifically what are the sentiments and most common words used in fake news? 
-How accurate can we predict fake news by creating a detector using these features? 
-What approach leads to the highest accuracy in prediction? 
+- What are the sentiments and most common words used in fake news? 
+- How accurate can we predict fake news by creating a detector using these features? 
+- What approach leads to the highest accuracy in prediction? 
 
-## Dataset
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show you've read the docs and are familiar with some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
+## Dataset: The Liar Dataset
 - [Liar Dataset](https://github.com/thiagorainmaker77/liar_dataset)
+- The Liar Dataset is a manually labeled dataset of short statements from politifact.com. The statements are manually labeled into ‘pants on fire’, ’false’, ‘barely true’, ‘half true’, ‘mostly true’. The dataset also contains information on the subject of the statement, who produced it, his job, party and the context. 
+- The dataset is divided into a training (+- 1200 lines) and a test-set (way larger)
+- First of all we would like to analyse the statements in terms of sentiment analysis. 
+- After, we would like to use the labeled data to determine, using machine learning, which features are the most important in the prediction of fake news.
 
 ## A tentative list of milestones for the project
 
