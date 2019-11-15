@@ -1,8 +1,7 @@
 # TMCI_project: Fake News Detection
 
 ## Abstract
-A max 150-word description of the project question or idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
-Motivation: to decide whether a statement is fake news or not. 
+Online news sources are becoming increasingly popular and with that powerful. Fake news has always existed, but with more and more people choosing online news as their primarily news portal, fake news is becoming easier to generate and to spread. Fake news can be dangerous, which makes it important to be able to determine the accuracy of online news articles. Therefore, this project will analyze and research fake news articles in comparison to real news articles. This not only to examine the features of fake news but also to create a fake news detector. In this research we will make use of the liar dataset consisting of bot a training and test set of fake and real news articles concerning politics. 
 
 ## Research questions
 
