@@ -6,9 +6,9 @@ Motivation: to decide whether a statement is fake news or not.
 
 ## Research questions
 
-What features are associated with fake news?
+#### What features are associated with fake news?
 - What are the sentiments and most common words used in fake news?
-- How accurate can we predict fake news by creating a detector using these features? 
+- How accurate can we predict fake news by creating a detector using these, and other features? 
 - What approach leads to the highest accuracy in prediction? 
 
 ## Dataset: The Liar Dataset
