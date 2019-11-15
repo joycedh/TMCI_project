@@ -22,20 +22,26 @@ What features are associated with fake news?
 
 ## A tentative list of milestones for the project
 
--By November 22 
--Set up
-- Determine for all words of the statements in the train dataset what the prominence of the word in fake news is.   Barbara & Eva 
--Logistic regression 
--feature inspection: multiple features (word frequencies, article, politicle party)
--represent statements, uniform set of features : sparse vectors (over whole vocabulary) 
+*By November 22: Preparation*
+- Setting up:
+  - create a representation of statements in a word vector to be applied for feature inspection, using word frequencies (ALL)
+  - perform Logistic Regression to detect which features are the most important (ALL)
+  
+*By November 29: Learning*
+- Start with feature engineering:
+  - Sentimental value per statement
+    - Find which Lexicon based model is most effective when applied to Fake News (Joyce, Eva)
+    - Use this model to compute the sentimental value of each statement (Joyce, Eva)
+  - Other features: think of which features already apparent in the dataset can also be used in our model (political party, job, subject, etc.) (Barbara)
 
--By November 29 
--Visualization of prominence words in fake news 
-- Building an effective fake news detector on the training set. 
-- Analyzing how accurate the fake news detector is. 
-- Determine which method of lexicon based sentiment analysis model can we best apply to fake news.                 Joyce
+*By December 6: Testing*
+- Testing our model, implementing the weighted features, to see what the accuracy is on fake news detection (Barbara, Joyce)
+- Find a new, small dataset which we can annotate and also use to test whether the model also performs well outside its mother dataset(Eva)
 
-Add here a sketch of your planning for the coming weeks. Please mention who does what.
+*By December 13: Visualisation*
+- Data visualisation:
+  - visualising all our findings in nice figures (Eva, Barbara)
+- Wrapping up the project (Joyce)
 
 ## Documentation
 This can be added as the project unfolds. You should describe, in particular, what your repo contains and how to reproduce your results.
