@@ -9,7 +9,7 @@ Motivation: to decide whether a statement is fake news or not.
 ## Research questions
 
 What features are associated with fake news?
-- What are the sentiments and most common words used in fake news? 
+- What are the sentiments and most common words used in fake news?
 - How accurate can we predict fake news by creating a detector using these features? 
 - What approach leads to the highest accuracy in prediction? 
 
@@ -22,10 +22,18 @@ What features are associated with fake news?
 
 ## A tentative list of milestones for the project
 
-Determine which method of lexicon based sentiment analysis model can we best apply to fake news. 
-Determine for all words of the statements in the train dataset what the prominence of the word in fake news is. 
-Building an effective fake news detector on the training set. 
-Analyzing how accurate the fake news detector is. 
+-By November 22 
+-Set up
+- Determine for all words of the statements in the train dataset what the prominence of the word in fake news is.   Barbara & Eva 
+-Logistic regression 
+-feature inspection: multiple features (word frequencies, article, politicle party)
+-represent statements, uniform set of features : sparse vectors (over whole vocabulary) 
+
+-By November 29 
+-Visualization of prominence words in fake news 
+- Building an effective fake news detector on the training set. 
+- Analyzing how accurate the fake news detector is. 
+- Determine which method of lexicon based sentiment analysis model can we best apply to fake news.                 Joyce
 
 Add here a sketch of your planning for the coming weeks. Please mention who does what.
 
