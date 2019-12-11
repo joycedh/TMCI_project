@@ -42,4 +42,17 @@ Online news sources are becoming increasingly popular and with that powerful. F
 - Wrapping up the project (Joyce)
 
 ## Documentation
-This can be added as the project unfolds. You should describe, in particular, what your repo contains and how to reproduce your results.
+##### Datafiles
+- `more-fake-news.csv` : this file contains some more fake news data that we will probably test our best regression model on, to see whether it performs the same on different data, this will show if the model is scalable.
+- `test.tsv`: this file contains the test set of the Liar Dataset. 
+- `train.tsv`: this file contains the training set of the Liar Dataset.
+- `valid.tsv`: this file contains the validation set of the Liar Dataset.
+- `sentiment_test.csv`: this file contains the test set of the Liar Dataset, with the added sentiment values calculated in `sentiment-analysis.ipynb`. 
+- `sentiment_train.csv`: this file contains the training set of the Liar Dataset, with the added sentiment values calculated in `sentiment-analysis.ipynb`. 
+
+##### Notebooks
+- `update-1.ipynb`: here, we have created a count vector of the training set, tried some regression, but we just split the training data up in a training and test part, since we did not know how to fit the test data on the model yet. Therefore, the accuracy is pretty low. 
+- `binomial-LR.ipynb`: here we show a binomial implementation of the logistic regression on fake news classification. Since this is an easier implementation, we used it to test which model we could best apply for multinomial regression. It contains implementation of countvectorizer, feature importance analysis, experimentation with dimensionality reduction, and an implementation of tfidf vectorizer. 
+- `Multinomial-LR.ipynb`: here, we performed multinomial regression using the countvectorizer, we also did some feature importance analysis. 
+- `sentiment-analysis.ipynb`: here we calculated the positive and negative sentiment scores of the statements in our train and test dataset, and created new datasets with this score added. We used SentiWordNet for this sentiment analysis.
+- `Multinomial-LR-TFIDF.ipynb`: this notebook includes the addition of the new features (incl. political score) to our data. Furthermore, we implemented tfidf vectorizer for multinomial regression, and tested whether the new features had any significance in its accuracy. 
