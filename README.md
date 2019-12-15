@@ -41,7 +41,7 @@ Online news sources are becoming increasingly popular and with that powerful. F
   - visualising all our findings in nice figures (Eva, Barbara)
 - Wrapping up the project (Joyce)
 
-## Final division of tasks 
+## Final Contribution
 - Coming up with the project idea and making a project plan (Eva, Joyce, Barbara)
 - Creating matrices of the dataset to which later LR could be applied (Barbara) 
 - Binomial regression and feature importance (Joyce)
