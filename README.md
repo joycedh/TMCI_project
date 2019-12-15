@@ -46,7 +46,7 @@ Online news sources are becoming increasingly popular and with that powerful. F
 - Creating matrices of the dataset to which later LR could be applied (Barbara) 
 - Binomial regression and feature importance (Joyce)
 - Multinomial regression and feature importance (Barbara) 
-- Icuding the sentiment analysis (Joyce) 
+- Icluding the sentiment analysis (Joyce) 
 - Applying SVD and TfIdf (Joyce) 
 - Testing the binomial model on new dataset (Joyce) 
 - Filtering words for both binomial and multinomial (Barbara) 
