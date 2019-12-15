@@ -12,7 +12,7 @@ Online news sources are becoming increasingly popular and with that powerful. F
 
 ## Dataset: The Liar Dataset
 [The Liar Dataset](https://github.com/thiagorainmaker77/liar_dataset)
-- The Liar Dataset is a dataset of short statements from [politifact.com](politifact.com). The statements are manually labeled into ‘pants on fire’, ’false’, ‘barely true’, ‘half true’, ‘mostly true’. The dataset also contains information on the subject of the statement, who produced it, their job, party and the context. 
+- The Liar Dataset is a dataset of short statements from [politifact.com](politifact.com). The statements are manually labeled into ‘pants on fire’, ’false’, ‘barely true’, ‘half true’, ‘mostly true’ and 'true'. The dataset also contains information on the subject of the statement, who produced it, their job, party and the context. 
 - The dataset is divided into a training (+- 1200 statements) and a test-set (way larger)
 - Feature engineering:
   - First, we would like to create a word-frequency vector from the dataset
@@ -40,6 +40,20 @@ Online news sources are becoming increasingly popular and with that powerful. F
 - Data visualisation:
   - visualising all our findings in nice figures (Eva, Barbara)
 - Wrapping up the project (Joyce)
+
+## Final division of tasks 
+- Coming up with the project idea and making a project plan (Eva, Joyce, Barbara)
+- Creating matrices of the dataset to which later LR could be applied (Barbara) 
+- Binomial regression and feature importance (Joyce)
+- Multinomial regression and feature importance (Barbara) 
+- Icuding the sentiment analysis (Joyce) 
+- Applying SVD and TfIdf (Joyce) 
+- Testing the binomial model on new dataset (Joyce) 
+- Filtering words for both binomial and multinomial (Barbara) 
+- Updating the documentation in the README (Joyce & Barbara) 
+- Writing the weekly updates (Barbara) 
+- Writing the report (Eva)
+- Creating Slides for the presentation (Eva) 
 
 ## Documentation
 ##### Datafiles
